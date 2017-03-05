@@ -1,5 +1,7 @@
 function saludar (){
 
-  return "adiós mundo";
+  var x= document.getElementById('input');
+  x.innerHTML="adios mundo";
 
 }
+saludar();
